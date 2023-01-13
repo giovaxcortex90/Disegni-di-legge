@@ -18,7 +18,7 @@ An automated clustering analysis can be performed on these data to eliminate wha
 
 ## Installation and Usage ##
 
-1. Clone this repository: `git clone `
+1. Clone this repository: `git clone https://github.com/giovaxcortex90/Disegni-di-legge.git`
 2. Install the dependencies: `cd senato.py && pip install -r requirements.txt`
 3. Fetch the amendments by running the scraper: `scrapy crawl cirinna`
 4. Examine the analysis by running the notebook: `jupyter notebook cirinna.ipynb`
