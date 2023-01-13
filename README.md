@@ -14,7 +14,7 @@ This puts a huge strain on the Senate, which has to discuss and vote on the indi
 The Italian Senate makes its data available publicly.
 An automated clustering analysis can be performed on these data to eliminate what are essentially duplicate amendments and reduce the total number of amendments that have to be considered.
 
-![clusters.png](images/clusters.png)
+![clusters.png](images/figuraCirinna.png)
 
 senato.py is a scraper for data from the Senate.
 The data can be analysed using the Jupyter notebook provided in this repository.
