@@ -1,27 +1,15 @@
 # Disegni-di-legge #
 
-**Automated Clustering of Similar Amendments in the Italian Senate**
+**Raggruppamento automatizzato dei disegni di legge simili al Senato italiano**
 
-## The problem ##
+Il Senato italiano rende pubblici i propri dati.
+Quindi è possibile eseguire un'analisi di clustering automatizzata sui dati per eliminare quelle che sono essenzialmente modifiche duplicate e ridurre il numero totale di modifiche che devono essere prese in considerazione.
 
-The Italian Senate is under a Denial-of-Service attack.
-Software is being used to generate millions of amendments to block the passing of certain laws.
-The amendments are generated using a black-hat technique that produces several variations of a given text.
-This puts a huge strain on the Senate, which has to discuss and vote on the individual amendments, effectively bringing proceedings to a standstill.
+## Installazione ##
 
-## The solution ##
+1. Clona la repository: `git clone https://github.com/giovaxcortex90/Disegni-di-legge.git`
+2. Installa le dipendezedentro la cartella di lavoro: `pip install -r requirements.txt`
+3. Si scaricano tutti gli emendamenti di una certa legge con lo scripts scraper: `scrapy crawl cirinna` (ad esempio il ddl cirinna)
+4. Avviare il cluster eseguendo il jupyter notebook della determinata legge: `jupyter notebook cirinna.ipynb` (ad esempio il ddl cirinna)
 
-The Italian Senate makes its data available publicly.
-An automated clustering analysis can be performed on these data to eliminate what are essentially duplicate amendments and reduce the total number of amendments that have to be considered.
-
-![clusters.png](images/figuraCirinna.png)
-
-## Installation and Usage ##
-
-1. Clone this repository: `git clone https://github.com/giovaxcortex90/Disegni-di-legge.git`
-2. Install the dependencies: `cd senato.py && pip install -r requirements.txt`
-3. Fetch the amendments by running the scraper: `scrapy crawl cirinna`
-4. Examine the analysis by running the notebook: `jupyter notebook cirinna.ipynb`
-
-Autor Giovanni Battista Cortese
-## License ##
+Autore: Giovanni Battista Cortese
