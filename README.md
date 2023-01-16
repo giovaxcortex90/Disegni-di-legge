@@ -12,4 +12,8 @@ Quindi è possibile eseguire un'analisi di clustering automatizzata sui dati per
 3. Si scaricano tutti gli emendamenti di una certa legge con lo scripts scraper: `scrapy crawl cirinna` (ad esempio il ddl cirinna)
 4. Avviare il cluster eseguendo il jupyter notebook della determinata legge: `jupyter notebook cirinna.ipynb` (ad esempio il ddl cirinna)
 
-Autore: Giovanni Battista Cortese
+## Autore ##
+Giovanni Battista Cortese
+
+
+## License ##
